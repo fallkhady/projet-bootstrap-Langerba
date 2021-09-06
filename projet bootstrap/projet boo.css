@@ -1,0 +1,22 @@
+h2{
+	text-align: center;
+}
+.container1{
+	padding-top: 30px;
+	background-color: azure;
+	height: 400px;
+}
+.row g-3{
+	padding-top: 80px;
+	padding-left: 500px;
+	background-color: blue;
+}
+img{
+	margin-left: 200px;
+}
+.fa-color{
+	color: orange;
+}
+.form{
+
+}

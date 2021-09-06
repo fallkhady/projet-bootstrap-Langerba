@@ -1,0 +1,119 @@
+  
+css code partie 5
+
+
+.titre button ,
+  .container button,
+  .formulaire button{
+      font-size: 1.4rem;
+      padding: 8px 15px;
+      background: #e76f33ea ;
+      border-radius: 30px;
+      border: none;
+      top: 300px;
+      color: white;
+
+
+ .formulaire{
+    background: #003c5a; 
+    padding: 80px 0px;
+    color: white;
+  }
+  .formulaire form{
+      margin: 5px 35%;
+    word-spacing: 10%;
+  }
+  .formulaire form input{
+      padding: 8px 170px;
+      outline: none;
+      border-radius: 30px;
+      transform: translateX(-10%);
+  }
+  .formulaire button{
+    transform: translateX(30%); 
+  }
+  /* =========================== */
+  .main6 button {
+    border-radius: 50%;
+}
+.main6 button {
+    height:80px;
+
+}
+
+.main6{
+    background: #f34d13;
+    
+}
+.main6 .text p{
+    justify-content: center;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+*------------------------------------------------------------------
+----------------------------------------------------------------------*
+partie 5
+html code
+ <div class="formulaire row align-items-center">
+        <h2 class="col-lg-12 text-center">Get your free e-mail course!</h2> <br>
+        <p class="col-lg-12 text-center">30 lessons per week, Upper-Intermediate to Advanced levels, course length: 4, 8-12 weeks</p>
+        <form >
+          <input class="" type="search" placeholder="Enter your mail" aria-label="Search"> 
+          
+          <button  type="submit" class="VG15">I WANT A COURSE</button>
+        </form>
+      </div>
+*---------------------------------------------------------------------
+--------------------------------------------------------*
+PARTIE FOOTER code html partie 7
+<!-- ============================================ -->
+<section class="main7"> 
+    <div class="footer container row"> 
+               <div class=" hover col-lg-3">
+                 <a id="langerba">Langerba</a>
+                </div>
+                <div class=" hover col-lg-2 ">
+                  <a>Home</a>
+                 </div>
+                 <div class=" hover col-lg-2 ">
+                  <a >About us</a>
+                 </div>
+                 <div class=" hover col-lg-2 ">
+                  <a >Courses</a>
+                 </div>
+                 <div class=" icons col-lg-3 d-flex ">
+                  <a><span><i class="fab fa-facebook"></i></span> </a>&nbsp;&nbsp;&nbsp;
+                <a><span><i class="fab fa-instagram"></i></span> </a>&nbsp;&nbsp;&nbsp;
+                 <a><span><i class="fab fa-twitter"></i></span> </a>&nbsp;&nbsp;&nbsp;
+                 <a><span><i class="fab fa-google-plus"></i></span> </a>
+                 </div></div>
+             
+      <hr>
+      <p class="text-center">copyright @2021 All rights reserved This template is made with by Proweb</p>
+     
+</section>
+*---------------------------------------------------------------------------
+-----------------------------------------------------------*
+code css partie 7
+.main7 a{
+    
+    text-decoration: none;
+    color:#fff;
+}
+.main7
+, .main7 .container{
+    
+    background: #272727;
+    color: white;
+    justify-content: center;
+    padding-left: 5%;
+    bottom: 100px;
+}
+.main7 #langerba{font-size: 1.5rem;}
+
+.icons a > span i:hover{
+color: #f34d13;
+/* color: aqua; */
+transition: .2s ease;
+}
